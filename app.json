@@ -17,6 +17,9 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "plugins": [
+      "@config-plugins/android-jsc-intl"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -24,7 +27,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.anonymous.dailydiet"
     },
     "web": {
       "favicon": "./assets/favicon.png"
